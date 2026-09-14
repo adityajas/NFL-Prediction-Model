@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+trash prolly/
+archive/
+data/raw/
