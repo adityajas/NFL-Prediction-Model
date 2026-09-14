@@ -1,4 +1,4 @@
-https://adityajas.github.io/nfl-betting-model/nfl_strategy_visualizer.html
+https://adityajas.github.io/NFL-Prediction-Model/nfl_strategy_visualizer.html
 
 Open the file, choose game and strategy to simulate returns
 Graph data is pulled from kalshi_nfl_prices.csv
