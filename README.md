@@ -14,3 +14,13 @@ Each market has an open_time (when betting opened, often days before kickoff) an
 Each candlestick becomes one CSV row: which game, which team, the bar's timestamp, and open/close/mean "yes" price for that minute. So a single game contributes up to ~300 rows (2 teams × ~5 hours × 60 bars/hour).
 5. Write incrementally
 After every game's markets are processed, it rewrites the whole CSV from the rows list accumulated so far — not append-only, but cheap enough at this scale, and it means killing the script partway through doesn't lose earlier games.
+
+Disclaimer
+
+This software is provided for educational and informational purposes only. It is not financial, investment, legal, or betting advice, and nothing in this tool, its output, or its documentation should be construed as a recommendation to buy, sell, or hold any security, contract, or position.
+
+Backtested or simulated performance is not indicative of future results. Historical data analysis has inherent limitations, and past performance of any strategy does not guarantee or predict future performance.
+
+Trading and prediction-market activity involve substantial risk of loss and are not suitable for everyone. You are solely responsible for evaluating the merits and risks of any decision made using this software, for complying with all applicable laws and regulations in your jurisdiction (including those governing prediction markets, betting, and trading), and for any outcomes, financial or otherwise, that result from your use of it.
+
+This software is provided "as is," without warranty of any kind, express or implied. The author(s) disclaim all liability for any direct, indirect, incidental, or consequential damages arising from the use of, or inability to use, this software. Use it entirely at your own risk and expense.
